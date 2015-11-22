@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ruta:</strong>
+  <%= @texto.ruta %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @texto.nombre %>
+</p>
+
+<%= link_to 'Edit', edit_texto_path(@texto) %> |
+<%= link_to 'Back', textos_path %>
