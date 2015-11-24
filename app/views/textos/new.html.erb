@@ -1,5 +1,26 @@
 <h1>Nuevo Texto</h1>
+<%= form_for(@texto) do |f| %>
+  <% if @texto.errors.any? %>
+    <div id="error_explanation">
+      <h2>Los datos ingresados son incorrectos:</h2>
+      <ul>
+      <% @texto.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
 
-<%= render 'form' %>
-
-<%= link_to 'Atras', textos_path %>
+  <div class="field">
+    <%= f.label :ruta %><br>
+    <%= f.text_field :ruta %>
+  </div>
+  <div class="field">
+    <%= f.label :nombre %><br>
+    <%= f.text_field :nombre %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Crear', class:'btn btn-xs btn-success'%>
+    <%= link_to 'Atras', textos_path, class:'btn btn-xs' %>
+  </div>
+<% end %>

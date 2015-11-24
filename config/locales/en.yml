@@ -21,3 +21,12 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        texto:
+          attributes:
+            nombre:
+              blank: "no debe estar en blanco."
+            ruta:
+              blank: "no debe estar en blanco."

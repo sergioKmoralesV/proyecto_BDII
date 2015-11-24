@@ -1,0 +1,274 @@
+# Logfile created on 2015-11-24 00:23:51 -0400 by logger.rb/47272
+I, [2015-11-24T00:23:51.472677 #1854]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:23:51.472732 #1854] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:23:51.472749 #1854] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:23:51.472761 #1854] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:23:51.472772 #1854] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:23:51.472782 #1854] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:23:51.472795 #1854] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:23:51.483436 #1854]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:23:51.483484 #1854] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:23:51.483502 #1854] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:23:51.483517 #1854] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:23:51.483531 #1854] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:23:51.483544 #1854] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:23:51.483555 #1854] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:23:51.483578 #1854] DEBUG -- : response-header: x-request-id => 714626c7-305b-4e2a-a935-2828e4f5b337
+D, [2015-11-24T00:23:51.483589 #1854] DEBUG -- : response-header: x-runtime => 0.006894
+D, [2015-11-24T00:23:51.483600 #1854] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:23:51.483610 #1854] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:23:51 GMT
+D, [2015-11-24T00:23:51.483620 #1854] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:23:51.483633 #1854] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:23:51.483726 #1854] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:25:05.863109 #1857]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:25:05.863176 #1857] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:25:05.863194 #1857] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:25:05.863206 #1857] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:25:05.863227 #1857] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:25:05.863239 #1857] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:25:05.863249 #1857] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:25:05.873283 #1857]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:25:05.873327 #1857] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:25:05.873343 #1857] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:25:05.873356 #1857] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:25:05.873367 #1857] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:25:05.873378 #1857] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:25:05.873389 #1857] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:25:05.873399 #1857] DEBUG -- : response-header: x-request-id => 6030bedf-e10b-4c7a-9aa5-220270b468fb
+D, [2015-11-24T00:25:05.873409 #1857] DEBUG -- : response-header: x-runtime => 0.006176
+D, [2015-11-24T00:25:05.873419 #1857] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:25:05.873429 #1857] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:25:05 GMT
+D, [2015-11-24T00:25:05.873439 #1857] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:25:05.873458 #1857] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:25:05.873548 #1857] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:25:58.321985 #1860]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:25:58.322055 #1860] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:25:58.322074 #1860] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:25:58.322100 #1860] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:25:58.322134 #1860] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:25:58.322156 #1860] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:25:58.322176 #1860] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:25:58.332860 #1860]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:25:58.332931 #1860] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:25:58.332947 #1860] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:25:58.332959 #1860] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:25:58.332969 #1860] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:25:58.332980 #1860] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:25:58.332990 #1860] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:25:58.332999 #1860] DEBUG -- : response-header: x-request-id => f34eba22-d4e7-4fff-ad99-e5453b152463
+D, [2015-11-24T00:25:58.333009 #1860] DEBUG -- : response-header: x-runtime => 0.006905
+D, [2015-11-24T00:25:58.333021 #1860] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:25:58.333032 #1860] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:25:58 GMT
+D, [2015-11-24T00:25:58.333042 #1860] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:25:58.333051 #1860] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:25:58.333140 #1860] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:28:19.807268 #1872]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:28:19.807338 #1872] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:28:19.807356 #1872] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:28:19.807368 #1872] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:28:19.807380 #1872] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:28:19.807390 #1872] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:28:19.807400 #1872] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:28:19.817519 #1872]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:28:19.817564 #1872] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:28:19.817582 #1872] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:28:19.817595 #1872] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:28:19.817607 #1872] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:28:19.817619 #1872] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:28:19.817630 #1872] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:28:19.817641 #1872] DEBUG -- : response-header: x-request-id => d6a523a5-d9c7-4002-8d12-ccfd75760e3b
+D, [2015-11-24T00:28:19.817652 #1872] DEBUG -- : response-header: x-runtime => 0.006289
+D, [2015-11-24T00:28:19.817662 #1872] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:28:19.817673 #1872] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:28:19 GMT
+D, [2015-11-24T00:28:19.817694 #1872] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:28:19.817706 #1872] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:28:19.817794 #1872] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:28:37.694558 #1874]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:28:37.694634 #1874] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:28:37.694655 #1874] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:28:37.694671 #1874] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:28:37.694685 #1874] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:28:37.694699 #1874] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:28:37.694712 #1874] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:28:37.705780 #1874]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:28:37.705833 #1874] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:28:37.705854 #1874] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:28:37.705871 #1874] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:28:37.705886 #1874] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:28:37.705900 #1874] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:28:37.705915 #1874] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:28:37.705928 #1874] DEBUG -- : response-header: x-request-id => d69fee80-c120-46b7-ba9c-2cc4810e33ba
+D, [2015-11-24T00:28:37.705948 #1874] DEBUG -- : response-header: x-runtime => 0.007197
+D, [2015-11-24T00:28:37.705964 #1874] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:28:37.705978 #1874] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:28:37 GMT
+D, [2015-11-24T00:28:37.705992 #1874] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:28:37.706005 #1874] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:28:37.706105 #1874] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:29:02.367234 #1877]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:29:02.367308 #1877] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:29:02.367333 #1877] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:29:02.367349 #1877] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:29:02.367363 #1877] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:29:02.367376 #1877] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:29:02.367389 #1877] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:29:02.377490 #1877]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:29:02.377534 #1877] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:29:02.377549 #1877] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:29:02.377561 #1877] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:29:02.377572 #1877] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:29:02.377582 #1877] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:29:02.377593 #1877] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:29:02.377603 #1877] DEBUG -- : response-header: x-request-id => fc20f43e-4645-49b2-b14e-9eb670b93835
+D, [2015-11-24T00:29:02.377613 #1877] DEBUG -- : response-header: x-runtime => 0.006395
+D, [2015-11-24T00:29:02.377633 #1877] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:29:02.377645 #1877] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:29:02 GMT
+D, [2015-11-24T00:29:02.377655 #1877] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:29:02.377664 #1877] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:29:02.377748 #1877] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:30:30.944913 #1926]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:30:30.944990 #1926] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:30:30.945011 #1926] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:30:30.945029 #1926] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:30:30.945043 #1926] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:30:30.945056 #1926] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:30:30.945068 #1926] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:30:30.955616 #1926]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:30:30.955662 #1926] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:30:30.955681 #1926] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:30:30.955695 #1926] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:30:30.955707 #1926] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:30:30.955719 #1926] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:30:30.955730 #1926] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:30:30.955742 #1926] DEBUG -- : response-header: x-request-id => 3ff0597d-78f6-4a0f-b9a9-1af39f8e6a48
+D, [2015-11-24T00:30:30.955752 #1926] DEBUG -- : response-header: x-runtime => 0.007056
+D, [2015-11-24T00:30:30.955763 #1926] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:30:30.955774 #1926] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:30:30 GMT
+D, [2015-11-24T00:30:30.955785 #1926] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:30:30.955796 #1926] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:30:30.955882 #1926] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:32:08.735861 #1929]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:32:08.735934 #1929] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:32:08.735952 #1929] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:32:08.735964 #1929] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:32:08.735976 #1929] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:32:08.735986 #1929] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:32:08.735999 #1929] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:32:08.745641 #1929]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:32:08.745685 #1929] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:32:08.745703 #1929] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:32:08.745715 #1929] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:32:08.745725 #1929] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:32:08.745735 #1929] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:32:08.745745 #1929] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:32:08.745755 #1929] DEBUG -- : response-header: x-request-id => 7069462c-7986-4673-8ba2-d064b8ee6f9d
+D, [2015-11-24T00:32:08.745776 #1929] DEBUG -- : response-header: x-runtime => 0.006392
+D, [2015-11-24T00:32:08.745787 #1929] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:32:08.745800 #1929] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:32:08 GMT
+D, [2015-11-24T00:32:08.745810 #1929] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:32:08.745819 #1929] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:32:08.745903 #1929] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:32:33.673756 #1931]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:32:33.673822 #1931] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:32:33.673840 #1931] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:32:33.673853 #1931] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:32:33.673864 #1931] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:32:33.673874 #1931] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:32:33.673884 #1931] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:32:33.684201 #1931]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:32:33.684240 #1931] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:32:33.684256 #1931] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:32:33.684267 #1931] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:32:33.684277 #1931] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:32:33.684287 #1931] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:32:33.684296 #1931] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:32:33.684305 #1931] DEBUG -- : response-header: x-request-id => 9984d59b-92dd-4938-9276-6751240029b5
+D, [2015-11-24T00:32:33.684314 #1931] DEBUG -- : response-header: x-runtime => 0.006255
+D, [2015-11-24T00:32:33.684323 #1931] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:32:33.684332 #1931] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:32:33 GMT
+D, [2015-11-24T00:32:33.684341 #1931] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:32:33.684350 #1931] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:32:33.684429 #1931] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:33:21.329120 #1934]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:33:21.329181 #1934] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:33:21.329208 #1934] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:33:21.329220 #1934] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:33:21.329231 #1934] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:33:21.329241 #1934] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:33:21.329251 #1934] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:33:21.339408 #1934]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:33:21.339451 #1934] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:33:21.339467 #1934] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:33:21.339479 #1934] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:33:21.339490 #1934] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:33:21.339500 #1934] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:33:21.339510 #1934] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:33:21.339532 #1934] DEBUG -- : response-header: x-request-id => 3b5f5c16-e54c-4517-8feb-1c7119a8c2ae
+D, [2015-11-24T00:33:21.339543 #1934] DEBUG -- : response-header: x-runtime => 0.006389
+D, [2015-11-24T00:33:21.339553 #1934] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:33:21.339562 #1934] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:33:21 GMT
+D, [2015-11-24T00:33:21.339571 #1934] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:33:21.339580 #1934] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:33:21.339674 #1934] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T00:34:03.517515 #1937]  INFO -- : Net::HTTP::Get: /textos.json
+D, [2015-11-24T00:34:03.517596 #1937] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T00:34:03.517616 #1937] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T00:34:03.517629 #1937] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T00:34:03.517640 #1937] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T00:34:03.517652 #1937] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T00:34:03.517663 #1937] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T00:34:03.528233 #1937]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T00:34:03.528274 #1937] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T00:34:03.528290 #1937] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T00:34:03.528301 #1937] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T00:34:03.528312 #1937] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T00:34:03.528323 #1937] DEBUG -- : response-header: etag => W/"f126612a603bc0351ffd146159037d4c"
+D, [2015-11-24T00:34:03.528333 #1937] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T00:34:03.528344 #1937] DEBUG -- : response-header: x-request-id => 5675b055-2705-4c60-bea4-0561a99f6616
+D, [2015-11-24T00:34:03.528354 #1937] DEBUG -- : response-header: x-runtime => 0.006465
+D, [2015-11-24T00:34:03.528364 #1937] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T00:34:03.528374 #1937] DEBUG -- : response-header: date => Tue, 24 Nov 2015 04:34:03 GMT
+D, [2015-11-24T00:34:03.528384 #1937] DEBUG -- : response-header: content-length => 671
+D, [2015-11-24T00:34:03.528394 #1937] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T00:34:03.528477 #1937] DEBUG -- : Read 671 bytes (671 total)
+I, [2015-11-24T01:24:22.438698 #2101]  INFO -- : Net::HTTP::Get: /palabras.json
+D, [2015-11-24T01:24:22.438776 #2101] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T01:24:22.438796 #2101] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T01:24:22.438809 #2101] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T01:24:22.438822 #2101] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T01:24:22.438833 #2101] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T01:24:22.438843 #2101] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T01:24:22.492346 #2101]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T01:24:22.492392 #2101] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T01:24:22.492407 #2101] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T01:24:22.492418 #2101] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T01:24:22.492429 #2101] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T01:24:22.492451 #2101] DEBUG -- : response-header: etag => W/"d751713988987e9331980363e24189ce"
+D, [2015-11-24T01:24:22.492483 #2101] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T01:24:22.492495 #2101] DEBUG -- : response-header: x-request-id => e12aa2d7-58b6-467a-8a1e-21070c071e91
+D, [2015-11-24T01:24:22.492505 #2101] DEBUG -- : response-header: x-runtime => 0.048887
+D, [2015-11-24T01:24:22.492515 #2101] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T01:24:22.492525 #2101] DEBUG -- : response-header: date => Tue, 24 Nov 2015 05:24:22 GMT
+D, [2015-11-24T01:24:22.492534 #2101] DEBUG -- : response-header: content-length => 2
+D, [2015-11-24T01:24:22.492545 #2101] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T01:24:22.492645 #2101] DEBUG -- : Read 2 bytes (2 total)
+I, [2015-11-24T01:24:37.129569 #2104]  INFO -- : Net::HTTP::Get: /palabras.json
+D, [2015-11-24T01:24:37.129643 #2104] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-24T01:24:37.129663 #2104] DEBUG -- : request-header: accept => */*
+D, [2015-11-24T01:24:37.129677 #2104] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.2.0p0 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-24T01:24:37.129690 #2104] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-24T01:24:37.129702 #2104] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-24T01:24:37.129714 #2104] DEBUG -- : request-header: host => localhost:3000
+I, [2015-11-24T01:24:37.139431 #2104]  INFO -- : status: Net::HTTPOK 1.1 200 OK 
+D, [2015-11-24T01:24:37.139472 #2104] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2015-11-24T01:24:37.139487 #2104] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2015-11-24T01:24:37.139499 #2104] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2015-11-24T01:24:37.139510 #2104] DEBUG -- : response-header: content-type => application/json; charset=utf-8
+D, [2015-11-24T01:24:37.139520 #2104] DEBUG -- : response-header: etag => W/"d751713988987e9331980363e24189ce"
+D, [2015-11-24T01:24:37.139530 #2104] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2015-11-24T01:24:37.139540 #2104] DEBUG -- : response-header: x-request-id => fa630eca-e1d3-4b8a-bb22-66f88bd2a96f
+D, [2015-11-24T01:24:37.139550 #2104] DEBUG -- : response-header: x-runtime => 0.005819
+D, [2015-11-24T01:24:37.139560 #2104] DEBUG -- : response-header: server => WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+D, [2015-11-24T01:24:37.139570 #2104] DEBUG -- : response-header: date => Tue, 24 Nov 2015 05:24:37 GMT
+D, [2015-11-24T01:24:37.139579 #2104] DEBUG -- : response-header: content-length => 2
+D, [2015-11-24T01:24:37.139588 #2104] DEBUG -- : response-header: connection => Keep-Alive
+D, [2015-11-24T01:24:37.139672 #2104] DEBUG -- : Read 2 bytes (2 total)

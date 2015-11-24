@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151123215453) do
+ActiveRecord::Schema.define(version: 20151124055113) do
 
   create_table "palabras", force: :cascade do |t|
     t.string   "text"
@@ -19,20 +19,21 @@ ActiveRecord::Schema.define(version: 20151123215453) do
     t.datetime "updated_at",   null: false
     t.integer  "texto_id"
     t.integer  "textogoer_id"
+    t.integer  "reps"
   end
 
   add_index "palabras", ["texto_id"], name: "index_palabras_on_texto_id"
   add_index "palabras", ["textogoer_id"], name: "index_palabras_on_textogoer_id"
 
   create_table "relacions", force: :cascade do |t|
-    t.integer  "palabras_id"
-    t.integer  "textos_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.integer  "palabra_id"
+    t.integer  "texto_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_index "relacions", ["palabras_id"], name: "index_relacions_on_palabras_id"
-  add_index "relacions", ["textos_id"], name: "index_relacions_on_textos_id"
+  add_index "relacions", ["palabra_id"], name: "index_relacions_on_palabra_id"
+  add_index "relacions", ["texto_id"], name: "index_relacions_on_texto_id"
 
   create_table "textogoers", force: :cascade do |t|
     t.datetime "created_at", null: false

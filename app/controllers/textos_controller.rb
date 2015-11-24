@@ -4,7 +4,12 @@ class TextosController < ApplicationController
   # GET /textos
   # GET /textos.json
   def index
+    if params[:search]
+
+        @textos = Texto.search(params[:search])
+    else
     @textos = Texto.all
+    end
   end
 
   # GET /textos/1
@@ -18,7 +23,33 @@ class TextosController < ApplicationController
   end
 
   def download
-    send_file  Rails.root.join('public',@texto.ruta), :type=>"text/txt", :x_sendfile=>true
+    send_file  Rails.root.join('public','downloads',@texto.ruta), :type=>"application/txt", :x_sendfile=>true
+  end
+
+  def update_db
+    f = File.open('public/downloads/words_script_result.txt', "r")
+    f.each_line do |line|
+      elements=''
+      elements = line.gsub(/[^0-9A-Za-z,]/i, '').split(',')
+      word = elements[0]
+      reps = elements[1]
+      elements.delete_at(0)
+      elements.delete_at(0)
+      data = Palabra.new(text:word.to_s,reps:reps.to_i)
+      data.save
+      word_id=Palabra.where(text:word).first.id
+      elements.each do |file|
+        relacion=Relacion.new(palabra_id:word_id,texto_id:file.to_i)
+        relacion.save
+      end
+    end
+    f.close
+    respond_to do |format|
+
+    format.html { redirect_to textos_url, notice: ' ' }
+    format.json { head :no_content }
+
+    end
   end
   # GET /textos/1/edit
   def edit

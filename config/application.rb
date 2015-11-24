@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module ProyectoBases
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
-    # Application configuration should go into files in config/initializers
+    # Application configuration should go into files ins config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
@@ -21,6 +21,8 @@ module ProyectoBases
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
+    config.serve_static_assets = true
+
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.paths << Rails.root.join("app", "assets", "downloads")
   end
