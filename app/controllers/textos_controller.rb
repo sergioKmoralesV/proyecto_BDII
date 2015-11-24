@@ -5,10 +5,9 @@ class TextosController < ApplicationController
   # GET /textos.json
   def index
     if params[:search]
-
-        @textos = Texto.search(params[:search])
+      @textos = Texto.search(params[:search])
     else
-    @textos = Texto.all
+      @textos = Texto.all
     end
   end
 
