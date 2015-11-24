@@ -1,5 +1,5 @@
 class TextosController < ApplicationController
-  before_action :set_texto, only: [:show, :edit, :update, :destroy]
+  before_action :set_texto, only: [:show, :edit, :update, :destroy, :download]
 
   # GET /textos
   # GET /textos.json
@@ -17,6 +17,9 @@ class TextosController < ApplicationController
     @texto = Texto.new
   end
 
+  def download
+    send_file  Rails.root.join('public',@texto.ruta), :type=>"text/txt", :x_sendfile=>true
+  end
   # GET /textos/1/edit
   def edit
   end
@@ -28,8 +31,8 @@ class TextosController < ApplicationController
 
     respond_to do |format|
       if @texto.save
-        format.html { redirect_to @texto, notice: 'Texto was successfully created.' }
-        format.json { render :show, status: :created, location: @texto }
+        format.html { redirect_to textos_url, notice: ' ' }
+        format.json { head :no_content }
       else
         format.html { render :new }
         format.json { render json: @texto.errors, status: :unprocessable_entity }
@@ -42,8 +45,8 @@ class TextosController < ApplicationController
   def update
     respond_to do |format|
       if @texto.update(texto_params)
-        format.html { redirect_to @texto, notice: 'Texto was successfully updated.' }
-        format.json { render :show, status: :ok, location: @texto }
+        format.html { redirect_to textos_url, notice: ' ' }
+        format.json { head :no_content }
       else
         format.html { render :edit }
         format.json { render json: @texto.errors, status: :unprocessable_entity }
@@ -56,7 +59,7 @@ class TextosController < ApplicationController
   def destroy
     @texto.destroy
     respond_to do |format|
-      format.html { redirect_to textos_url, notice: 'Texto was successfully destroyed.' }
+      format.html { redirect_to textos_url, notice: ' ' }
       format.json { head :no_content }
     end
   end

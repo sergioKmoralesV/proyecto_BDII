@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'textos#index'
+  get '/download/:id'=>'textos#download'
   resources :palabras
   resources :textos
   # The priority is based upon order of creation: first created -> highest priority.

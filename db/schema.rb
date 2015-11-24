@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151122203044) do
+ActiveRecord::Schema.define(version: 20151123215453) do
 
   create_table "palabras", force: :cascade do |t|
     t.string   "text"
@@ -23,6 +23,16 @@ ActiveRecord::Schema.define(version: 20151122203044) do
 
   add_index "palabras", ["texto_id"], name: "index_palabras_on_texto_id"
   add_index "palabras", ["textogoer_id"], name: "index_palabras_on_textogoer_id"
+
+  create_table "relacions", force: :cascade do |t|
+    t.integer  "palabras_id"
+    t.integer  "textos_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "relacions", ["palabras_id"], name: "index_relacions_on_palabras_id"
+  add_index "relacions", ["textos_id"], name: "index_relacions_on_textos_id"
 
   create_table "textogoers", force: :cascade do |t|
     t.datetime "created_at", null: false

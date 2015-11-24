@@ -28,8 +28,8 @@ class PalabrasController < ApplicationController
 
     respond_to do |format|
       if @palabra.save
-        format.html { redirect_to @palabra, notice: 'Palabra was successfully created.' }
-        format.json { render :show, status: :created, location: @palabra }
+        format.html { redirect_to palabras_url, notice: 'Palabra was successfully destroyed.' }
+        format.json { head :no_content }
       else
         format.html { render :new }
         format.json { render json: @palabra.errors, status: :unprocessable_entity }
@@ -42,8 +42,8 @@ class PalabrasController < ApplicationController
   def update
     respond_to do |format|
       if @palabra.update(palabra_params)
-        format.html { redirect_to @palabra, notice: 'Palabra was successfully updated.' }
-        format.json { render :show, status: :ok, location: @palabra }
+        format.html { redirect_to palabras_url, notice: 'Palabra was successfully destroyed.' }
+        format.json { head :no_content }
       else
         format.html { render :edit }
         format.json { render json: @palabra.errors, status: :unprocessable_entity }
